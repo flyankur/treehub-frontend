@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	
+*{  
+   margin:0;  
+   padding:0;  
+}  
+  
+body{  
+   text-align:center; /*For IE6 Shenanigans*/ 
+}  
+  
+#wrapper{  
+   width:960px;  
+   margin:0 auto;  
+   text-align:left;  
+}  
+	.clear{
+		clear:both;}
+	body{
+		background-image:url("images/tile.jpg");
+		background-repeat:repeat;
+		}
+	.green{
+			background-color:#8dc63f;
+		}
+	.blue{
+			background-color:#2cc3e8;
+		}	
+	#layer1{
+		border-bottom: 5px solid #DDDDDA;
+		box-shadow: 0 1px #FFFFFF;
+		padding-bottom: 5px;
+		position: relative;
+		}
+	#layer1 figure{
+		float:left;
+		}
+	#layer1 #loginbox{
+		float:right;
+		position:relative;
+		margin-top:70px;
+		}
+		
+	#loginbox .button{
+		border-radius:6px;
+		padding:10px 20px;
+		color:#fafafa;
+		box-shadow:1px 2px 3px -2px #333333;
+		font-family:arial;
+		font-size:15px;
+		float:left;
+		position:relative;
+		margin:2px 5px;
+		}
+	#navbar{
+		border-radius: 3px 3px 3px 3px;
+		float: left;
+		margin-left: 30px;
+		margin-top: 70px;
+		padding: 2px;
+		position: relative;
+		}
+	#navbar li{
+  border-left: medium none #C5A78E;
+    border-right: medium none #492B13;
+    color: #777777;
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none outside none;
+    padding: 10px 22px;
+    text-shadow: 1px 1px #FFFFFF;
+		}
+	
+	#navbar li:hover{
+		background: -moz-linear-gradient(center top , #FFFFFF, #EEEEEA) repeat scroll 0 0 transparent;
+		border-radius: 6px 6px 6px 6px;
+		box-shadow: 1px 1px 2px #AAAAAA;
+		cursor: pointer;
+		}
+	#layer3{
+		padding:40px 0px;
+		}
+	
+	#videobox{
+		float:left;
+		}
+	#featurebox{
+		background: -moz-linear-gradient(center top , #FFFFFF, #fafaf2) repeat scroll 0 0 transparent;
+		border: 1px solid #EEEEEE;
+		border-radius: 6px 6px 6px 6px;
+		float: right;
+		padding: 10px;
+		width: 360px;
+		}
+	#featurebox li{
+		list-style: none outside none;}
+	
+	.detailbox{
+		background-image: url("images/glass.png");
+		background-repeat: repeat;
+		border: 1px solid #eaeaea;
+		color: #666666;
+		float: left;
+		font-family: arial;
+		font-size: 12px;
+		margin-right: 20px;
+		padding: 10px;
+		width: 284px;
+		}
+	.detailbox:last-child{
+		margin-right:0px;
+		}
+	
+	.detailbox h2{
+		font-family:georgia;
+		font-size:18px;
+		font-style:italic;
+		    border-bottom: 3px solid #C0DD99;
+    color: #688768;
+		padding-bottom:1px;
+		
+		margin-bottom:10px;
+		font-weight:normal;
+		}
+		
+		
+		
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="layer1">
+		<figure>
+			<img src="images/logo.png"/>
+		</figure>
+		<div id="navbar">
+			<ul>
+				<li>
+					How it Works
+				</li>
+				<li>
+					Plans & Pricing
+				</li>
+				<li>
+					Documentation
+				</li>
+				<li>
+					Inquiry
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div id="loginbox">
+		
+			<div class="button green">Login</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="layer3">
+		<div id="videobox">
+			<object width="400" height="225">
+<param name="movie" value="https://www.youtube.com/v/Zhawgd0REhA&hl=en_US&feature=player_embedded&version=2&color1=0xb1b1b1&color2=0xb1b1b1"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="https://www.youtube.com/v/jROrzlxDjHU&hl=en_US&feature=player_embedded&version=2&color1=0xb1b1b1&color2=0xb1b1b1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="540" height="300"></embed></object>
+		</div>
+		<div id="featurebox">
+			<ul>
+				<li class="feature">
+					<figure>
+						<img src="images/icon.png"/>
+						<span class="iconcaption"> Missed Calls</span>
+					</figure>
+					<div class="featuretext">
+					</div>
+				</li>
+				<li class="feature">
+					<figure>
+						<img src="images/icon.png"/>
+						<span class="iconcaption"> Missed Calls</span>
+					</figure>
+					<div class="featuretext">
+					</div>
+				</li>
+				<li class="feature">
+					<figure>
+						<img src="images/icon.png"/>
+						<span class="iconcaption"> Missed Calls</span>
+					</figure>
+					<div class="featuretext">
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+	<div id="layer4">
+		<div id="detailstrip">
+			<div class="detailbox">
+				<h2>Who We Are</h2>
+				<div class="detail">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+				architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+				sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
+				voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+				</div>
+			</div>
+			<div class="detailbox">
+				<h2>What We Do</h2>
+				<div class="detail">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+				architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+				sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
+				voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+				</div>
+			</div>
+			
+			<div class="detailbox">
+				<h2>How it Works</h2>
+				<div class="detail">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+				architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+				sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
+				voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+</body>
+
+</html>
